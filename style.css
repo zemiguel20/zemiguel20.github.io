@@ -1,0 +1,16 @@
+@import url(bootstrap-5.2.2-dist/css/bootstrap.min.css);
+
+.bg-green {
+    color: #fff;
+    background-color: #198754;
+}
+
+.bg-dark-green {
+    color: #fff;
+    background-color: #105f3a;
+}
+
+.profile-pic {
+    display: block;
+    margin: auto;
+}
