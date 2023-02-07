@@ -1,16 +1,38 @@
 @import url(bootstrap-5.2.2-dist/css/bootstrap.min.css);
 
-.bg-green {
-    color: #fff;
-    background-color: #198754;
+@font-face {
+    font-family: Nunito;
+    src: url(res/Nunito/Nunito-VariableFont_wght.ttf);
 }
 
-.bg-dark-green {
-    color: #fff;
-    background-color: #105f3a;
+body {
+    font-family: 'Nunito';
+    font-variation-settings: 'wght' 400;
+    color: #323232;
+    background-color: #EAE7DD;
+}
+
+.title {
+    font-variation-settings: 'wght' 800;
+}
+
+.section-header {
+    color: white;
+    font-variation-settings: 'wght' 700;
+
+    background-color: #99775C;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.section-body {
+    background-color: #00000019;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .profile-pic {
     display: block;
     margin: auto;
+    border-radius: 5px;
 }
