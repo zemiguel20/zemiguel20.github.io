@@ -1,25 +1,29 @@
-@import url(bootstrap-5.2.2-dist/css/bootstrap.min.css);
+@import url(bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css);
+@import url(bootstrap/bootstrap-icons-1.10.3/bootstrap-icons.css);
 
 @font-face {
     font-family: Nunito;
-    src: url(res/Nunito/Nunito-VariableFont_wght.ttf);
+    src: url(res/Nunito/static/Nunito-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url(res/Nunito/static/Nunito-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-    font-family: 'Nunito';
-    font-variation-settings: 'wght' 400;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
     color: #323232;
     background-color: #EAE7DD;
 }
 
-.title {
-    font-variation-settings: 'wght' 800;
-}
-
 .section-header {
     color: white;
-    font-variation-settings: 'wght' 700;
-
     background-color: #99775C;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -35,4 +39,18 @@ body {
     display: block;
     margin: auto;
     border-radius: 5px;
+}
+
+.icon {
+    display: block;
+    color: #323232;
+    font-size: 24px;
+    transition: 0.2s;
+}
+
+.icon:hover {
+    color: #99775C;
+    transform: translateY(-1px);
+    text-shadow: 2px 2px 4px #0000006d;
+    transition: 0.2s;
 }
