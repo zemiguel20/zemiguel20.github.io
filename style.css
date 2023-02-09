@@ -24,6 +24,7 @@ body {
 
 .section-header {
     color: white;
+    font-weight: bold;
     background-color: #99775C;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
