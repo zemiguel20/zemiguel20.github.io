@@ -19,12 +19,12 @@ class CardSection extends HTMLElement {
         var content = this.innerHTML
 
         this.innerHTML = `
-            <div class="container my-3">
-                <div class="row p-3 section-header">
-                    <div class="fs-2">${this.dataset.title}</div>
+            <div class="card my-3">
+                <div class="card-header fs-2 fw-bold py-3 px-4">
+                    ${this.dataset.title}
                 </div>
 
-                <div class="row p-3 section-body">
+                <div class="card-body p-3">
                     ${content}
                 </div>
             </div>

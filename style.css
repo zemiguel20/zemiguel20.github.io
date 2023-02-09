@@ -1,4 +1,4 @@
-@import url(bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css);
+@import url(bootstrap/bootstrap-5.2.3-dist/css/bootstrap.css);
 @import url(bootstrap/bootstrap-icons-1.10.3/bootstrap-icons.css);
 
 @font-face {
@@ -22,20 +22,6 @@ body {
     background-color: #EAE7DD;
 }
 
-.section-header {
-    color: white;
-    font-weight: bold;
-    background-color: #99775C;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.section-body {
-    background-color: #00000019;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
 .profile-pic {
     display: block;
     margin: auto;
@@ -54,4 +40,13 @@ body {
     transform: translateY(-1px);
     text-shadow: 2px 2px 4px #0000006d;
     transition: 0.2s;
+}
+
+.card {
+    --bs-card-cap-bg: #99775C;
+    --bs-card-cap-color: white;
+    --bs-card-bg: #00000019;
+    --bs-card-border-radius: 15px;
+    --bs-card-inner-border-radius: 15px;
+    --bs-card-border-width: 0px;
 }
